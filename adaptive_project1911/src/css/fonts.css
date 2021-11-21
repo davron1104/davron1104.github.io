@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Book Antiqua';
+    src: url('../fonts/BookAntiqua-Bold.eot');
+    src: local('../fonts/Book Antiqua Bold'), local('BookAntiqua-Bold'),
+        url('../fonts/BookAntiqua-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BookAntiqua-Bold.woff2') format('woff2'),
+        url('../fonts/BookAntiqua-Bold.woff') format('woff'),
+        url('../fonts/BookAntiqua-Bold.ttf') format('truetype'),
+        url('../fonts/BookAntiqua-Bold.svg#BookAntiqua-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/ArialMT.eot');
+    src: local('../fonts/Arial'), local('ArialMT'),
+        url('../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ArialMT.woff') format('woff'),
+        url('../fonts/ArialMT.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/Arial-BoldMT.eot');
+    src: url('../fonts/Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Arial-BoldMT.woff') format('woff'),
+        url('../fonts/Arial-BoldMT.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('../fonts/Georgia-Bold.eot');
+    src: local('../fonts/Georgia Bold'), local('Georgia-Bold'),
+        url('../fonts/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Georgia-Bold.woff') format('woff'),
+        url('../fonts/Georgia-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
