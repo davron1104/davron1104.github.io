@@ -1,0 +1,281 @@
+@media (max-width: 1200px)
+    .container
+        max-width: 970px
+    .header
+        .logotype
+            margin-right: 25px
+@media (max-width: 992px)
+    .container
+        max-width: 750px
+    .header
+        &_top
+            flex-wrap: wrap-reverse
+            &_flags
+                right: 22px
+                top: 15px
+            &_info
+                flex-wrap: wrap
+                padding: 21px 0px 20px 45px
+                .logotype
+                    margin-right: 43px
+                &_name
+                    padding-top: 9px
+                    margin: 0px
+                    img
+                        width: 96%
+                &_contact
+                    display: flex
+                    padding: 0px 0px 0px 137px
+                    margin-top: -8px
+                    &_call
+                        margin-right: 24px
+                    &_mail
+                        padding-top: 2px
+        .navbar
+            width: 100%
+            height: 50px
+            margin: 0
+            &_item
+                position: fixed
+                flex-direction: column
+                top: 0
+                right: -100%
+                width: 50%
+                height: 100vh
+                padding: 20px 15px
+                background-color: rgba(0, 0, 0, 0.575)
+                transition: 0.6s all
+                z-index: 2
+                &_active
+                    right: 0
+
+            &_link
+                &:hover
+                    background: #0042B3
+                a
+                    font-size: 18px
+                    font-weight: 500
+                    &::after
+                        display: none
+                    &:hover
+                        background: #000
+    .hamburger
+        display: block
+        position: absolute
+        left: 20px
+        top: 15px
+        width: 17px
+        height: 17px
+        span
+            display: block
+            height: 3px
+            width: 100%
+            background-color: #fff
+            margin-bottom: 4px
+            transition: 0.5s all
+        &_active
+            span
+                margin-bottom: -2px
+                &:nth-child(1)
+                    transform: translateY(3px) rotate(-45deg)
+                &:nth-child(2)
+                    display: none
+                &:nth-child(3)
+                    transform: translateY(3px) rotate(45deg)
+    .info
+        padding: 0px
+        .excursion
+            &_item
+                .button
+                    width: 100%
+                &_descr
+                    font-size: 15px
+                &_btn
+                    padding: 10px 0px 16px 11px
+                    .excursion_item_descr
+                        width: 67%
+                        margin-right: 0px
+                &_snow
+                    padding: 10px 10px 12px 10px
+                    .excursion_item_descr
+                        width: 71%
+                        margin-right: 2px
+                &_camera
+                    padding: 11px 0px 14px 10px
+                    .excursion_item_descr
+                        width: 60%
+                        margin-right: 10px
+                &_fish
+                    padding: 11px 0px 12px 9px
+                    .excursion_item_descr
+                        width: 58%
+                        margin-right: 5px
+
+    .company
+        .content
+            &_wrapper
+                padding-right: 10px
+            &_main
+                &_navigate
+                    margin: 5px 0px 0px 23px
+                &_title
+                    margin: 8px 0px 18px 24px
+                &_text
+                    padding-left: 23px
+                    p
+                        &:nth-child(6)
+                            margin-top: 15px
+                            margin-bottom: 31px
+                        &:last-child
+                            margin-top: 33px
+                            margin-bottom: 63px
+            &_images
+                padding: 0px 33px 0px 25px
+                &_img
+                    &:not(:last-child)
+                        margin-right: 5px
+
+        &_wrapper
+            .sidebar
+                max-width: 268px
+                &_first
+                    height: 100%
+                    padding: 21px 9px 0px 18px
+                &_second
+                    padding: 16px 0px 10px 31px
+                &_third
+                    padding: 20px 9px 0px 20px
+
+@media( max-width: 767px)
+    .container
+        max-width: none
+    .header
+        &_top
+            &_info
+                display: flex
+                justify-content: center
+                align-items: center
+                padding-left: 20px
+                &_contact
+                    padding-left: 0px
+                .logotype
+                    margin: 0 auto
+                &_name
+                    margin-bottom: 30px
+    .info
+        .excursion
+            flex-wrap: wrap
+            .button
+                flex: 0 0 50%
+                margin-bottom: 2.5px
+            &_item
+                &_descr
+                    color: #d6b483
+                    font-family: Georgia
+                    font-size: 20px
+                    font-weight: 700
+
+    .company
+        .content
+            &_wrapper
+                padding-right: 0px
+            &_main
+                &_text
+                    padding-left: 10px
+                    padding-right: 10px
+
+@media( max-width: 575px)
+    header
+        .header
+            &_top
+                &_info
+                    display: flex
+                    justify-content: center
+                    align-items: center
+    .header
+        .navbar
+            &_link
+                a
+                    font-size: 16px
+                    padding: 10px 0px 10px 0px
+        &_top
+            &_info
+                padding-bottom: 33px
+                .logotype
+                    margin: 0 92px
+                    margin-bottom: 8px
+                &_name
+                    img
+                        width: 92%
+                &_contact
+                    flex-direction: column
+                    padding-left: 0px
+
+    .info
+        .excursion
+            .button
+                flex: auto
+            &_item
+                &_descr
+                    color: #d6b483
+                    font-family: Georgia
+                    font-size: 20px
+                    font-weight: 700
+                &_btn
+                    padding: 13px 0px 16px 19px
+                    .excursion_item_descr
+                        width: 73%
+                        margin-right: 0px
+                &_snow
+                    padding: 0px 10px 12px 18px
+                    .excursion_item_descr
+                        width: 75%
+                        margin-right: 2px
+                &_camera
+                    padding: 0px 0px 14px 19px
+                    .excursion_item_descr
+                        width: 69%
+                        margin-right: 10px
+                &_fish
+                    padding: 0px 0px 24px 18px
+                    .excursion_item_descr
+                        width: 67%
+                        margin-right: 5px
+
+    .company
+        &_wrapper
+            align-items: center
+            display: flex
+            flex-direction: column
+            .content
+                &_main
+                    &_navigate
+                        display: none
+                &_images
+                    display: none        
+                &_wrapper
+                    order: -1    
+            .sidebar
+                &_first
+                    display: none
+            
+    .xs-visible
+        display: none     
+
+    .xs-hidden
+        display: block         
+
+    .pc-hidden
+        display: none    
+
+    .pc-visible
+        display: block
+
+
+    .wrapper
+        background-color: #fff
+                        
+              
+
+
+
