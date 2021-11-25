@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-r.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-m.woff) format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-s-b.woff) format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-b.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-b-i.woff) format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Exo2';
+    src: url(../fonts/exo_2-e-b-i.woff) format('woff');
+    font-weight: 800;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url(../fonts/ArialMT.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url(../fonts/Arial-BoldMT.woff) format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
