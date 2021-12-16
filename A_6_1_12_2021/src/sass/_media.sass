@@ -1,0 +1,381 @@
+@media (max-width: 1200px)
+    .container
+        max-width: 970px
+
+
+@media (max-width: 992px)
+    .container
+        max-width: 750px 
+    .navbar
+        &_item
+            margin: 0 20px
+        &_link
+            a
+                font-size: 16px
+    .menu
+        a
+            display: none
+    .header
+        &_wrap
+            justify-content: space-around      
+    .image
+        .slick-prev
+	        left: 50px     
+        .slick-next
+            right: 50px
+    .icons
+        &-row
+            &_top
+                &_wrap
+                    align-self: baseline
+                &_text
+                    line-height: 16px        
+
+    .info
+        padding: 0px 15px 0px 15px
+    .photos
+        &__row
+            padding: 0px 12px 0px 12px
+            img
+                &:not(:last-child)
+                    margin-right: 10px
+                &:hover
+                    transform: scale(1.1)    
+    .trapezoid-top,
+    .trapezoid-bottom
+        display: none 
+
+    .article
+        &-wrapper
+            margin: 0 30px
+            &__item
+                flex-direction: column
+                width: 33.333%
+            &__image
+                margin-right: 0px
+    .history
+        &-wrapper
+            height: 240px            
+
+    .contacts
+        padding: 0px 24px 0px 22px
+
+    .map
+    .footer
+        .social-icons
+            margin: 0px 21px 0px 21px     
+        .copyright
+            padding: 31px 20px 0px 20px   
+
+
+
+@media (max-width: 767px)
+    .container
+        max-width: none
+    .header
+        &_wrap
+            position: relative
+            .links
+                a
+                    font-size: 17px
+                    &:first-child
+                        margin-right: 15px
+            &_btn
+                width: 8.5%                    
+    .navbar-hidden
+        display: block
+        &_item
+            position: absolute
+            flex-direction: column
+            justify-content: space-around
+            align-items: flex-end
+            top: 57px
+            right: -100%
+            width: 230px
+            height: 210px
+            padding: 22px 17px 29px 0px
+            background-color: #2d2d23
+            transition: all 0.6s
+            z-index: 50
+            margin: 0px
+            &_active
+                right: 0px    
+        &_link
+            .in-out
+                font-size: 16px
+                padding-top: 5px
+                &::before
+                    position: absolute
+                    top: 0
+				    right: 0
+				    width: 4px
+				    height: 0
+				    background-color: #ebd249
+				    content: ''
+				    transition: height 0.3s ease-out        
+                        
+                
+    .navbar
+        &_link
+            a
+                font-size: 13px
+                margin-bottom: 15px
+    .image
+        &__title
+            h1
+                font-size: 30px
+    .info
+        &_title
+            font-size: 28px      
+        &_descr
+            font-size: 14px       
+
+    .icons
+        &-row
+            &_top
+                flex-wrap: wrap
+                &_wrap
+                    align-self: baseline
+                &_text
+                    font-size: 17px    
+    .icons
+        &-row
+            &_bottom
+                flex-wrap: wrap
+                &_wrap
+                    align-self: baseline
+                &_text
+                    font-size: 17px    
+
+    .greats
+        &__title
+            font-size: 25px
+        .wrapper
+            &-top
+                &__image
+                    width: 155px
+                    height: 155px
+                &__name
+                    font-size: 18px
+                    margin-top: 12px
+                    width: 205px        
+                &__item
+                    width: 33.333%                
+        .wrapper
+            &-bottom
+                &__image
+                    width: 155px
+                    height: 155px
+                &__name
+                    font-size: 18px
+                    margin-top: 12px
+                    width: 205px     
+                &__item
+                    width: 33.333%             
+    .photos
+        padding-bottom: 35px
+        &__title
+            font-size: 25px
+        &__link
+            font-size: 20px
+        &__row
+            flex-wrap: wrap
+            img
+                margin-bottom: 20px
+    .article
+        &__title
+            font-size: 25px        
+        &-wrapper
+            &__descr
+                width: 140px
+                font-size: 13px    
+    .history
+        &-wrapper
+            height: 195px
+        &-year
+            &__title
+                font-size: 25px
+            &__descr
+                font-size: 13px
+        &-question
+            &__title
+                font-size: 25px        
+
+    .contacts
+        &-wrapper
+            &__item
+                li
+                    a
+                        font-size: 19px       
+
+    .map
+    .footer
+        .social
+            &-icons
+                &__link
+                    img
+                        width: 24px
+        .copyright
+            &__name
+                font-size: 10px
+            &__site
+                font-size: 10px
+                a
+                    font-size: 10px      
+
+@media (max-width: 575px)
+    .header
+        &_wrap
+            .links
+                flex-direction: column
+                a
+                    &:first-child
+                        font-size: 20px
+                        margin-top: 21px
+                    &:last-child
+                        margin-bottom: 28px    
+                &_icon
+                    img
+                        margin: 12px 0px 10px 0px         
+            &_btn
+                button
+                    align-self: baseline
+    .image
+        &__title
+            bottom: 25px
+            h1
+                width: 208px
+                font-size: 26px    
+        &_big
+            padding: 0px 0px 17% 0px                        
+                   
+    .menu
+        .hamburger
+            align-self: baseline
+            margin-top: 20px                             
+                        
+                        
+    .navbar
+        display: none
+        &-hidden
+            display: block   
+
+
+    .icons
+        &-row
+            &_top
+                &_image
+                    margin-bottom: 15px
+                &_wrap
+                    width: 50%  
+                    margin-bottom: 20px  
+        &-row
+            &_bottom
+                &_image
+                    margin-bottom: 15px
+                &_wrap
+                    width: 50%    
+                    margin-bottom: 30px
+
+    .greats
+        .wrapper
+            &-top
+                flex-wrap: wrap
+                width: 100%
+                &__item
+                    width: 100%
+                    margin-bottom: 20px
+                &__image
+                    width: 200px
+                    height: 200px    
+        .wrapper
+            &-bottom
+                flex-wrap: wrap
+                width: 100%
+                margin-top: 15px
+                &__item
+                    width: 100%
+                &__image
+                    width: 200px
+                    height: 200px    
+
+    .photos
+        padding-bottom: 50px
+        &__row
+            flex-wrap: wrap
+            padding: 0px 25px 0px 25px
+            img
+                max-width: 100%
+                margin-right: 0px
+                &:not(:last-child)
+                    margin-right: 0px      
+                    margin-bottom: 12px              
+        &__title
+            width: 278px    
+            margin: 0 auto      
+        &__button
+            margin-bottom: 0px          
+
+    .article
+        &-wrapper
+            flex-direction: column      
+            margin-right: 0px
+            &__item
+                flex-direction: row
+                margin-bottom: 20px
+            &__image
+                margin-right: 20px
+            &__descr
+                padding-right: 10px
+
+    .history
+        &-wrapper
+            display: flex
+            flex-direction: column
+            height: 373px
+            margin: 0
+            padding: 0
+        .bigshield
+            display: none      
+        &-year
+            padding: 44px 0px 0px 0px
+            &__descr
+                width: 100%
+        &-question
+            padding: 32px 0px 49px 0px      
+
+    .contacts
+        &-wrapper
+            flex-direction: column
+            &__item
+        &-button
+            margin: 69px auto 0px
+    .map
+        &__shield
+            display: none
+    .footer
+        .social-icons
+            display: flex
+            flex-direction: column
+            align-items: center 
+            margin: 0px 8px 0px 8px
+            &__group
+                &:first-child
+                    margin-bottom: 10px
+        .copyright
+            flex-direction: column
+            padding: 25px 0px 0px 0px
+            &__name
+                margin-bottom: 19px      
+            &__counter
+                margin-bottom: 30px
+            &__site
+                a
+                    display: block     
+                    text-align: center
+
+
+
+
+
+                                                                                                   

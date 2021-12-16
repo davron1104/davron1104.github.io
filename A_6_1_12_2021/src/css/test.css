@@ -1,0 +1,8 @@
+.trapezoid{
+    width: 216px;
+    height: 0;
+    border-top: 55px solid #2d2d23;
+    border-right: 81px solid #2d2d23;
+    border-left: 55px solid transparent;
+    margin: 50px;
+}
