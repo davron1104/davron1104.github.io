@@ -1,0 +1,248 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+  position: relative;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  height: 50px;
+  background-color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 70px;
+  margin: 0;
+  list-style: none;
+}
+
+.menu .menu_link {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+}
+
+.menu .menu_item {
+  border-right: 2px dotted black;
+  padding-right: 39px;
+}
+
+.subheader {
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+  width: 100%;
+  height: 84px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.subheader .subheader_logo {
+  display: block;
+  max-width: 100%;
+  margin-top: 16px;
+}
+
+.subheader .subheader_official {
+  margin-top: 6px;
+  opacity: 0.5;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.subheader .subheader_call {
+  margin-top: 19px;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.subheader .subheader_phone {
+  display: block;
+  margin-top: 8px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: right;
+  text-transform: uppercase;
+  line-height: 12px;
+}
+
+.subheader .subheader_btn {
+  margin-top: 19px;
+  width: 172px;
+  height: 46px;
+  box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  outline: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.promo {
+  min-height: 800px;
+  background: url('../img/header.jpg') center center/cover no-repeat;
+  padding: 150px 0 135px 0;
+}
+
+.promo .promo_header {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+  text-align: center;
+}
+
+.promo .promo_subheader {
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  margin-top: 22px;
+  text-align: center;
+}
+
+.promo .promo_descr {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 23px;
+}
+
+.promo .promo_btn {
+  display: block;
+  margin: 118px auto 0 auto;
+  width: 259px;
+  height: 63px;
+  box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+  outline: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 68px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cause {
+  padding: 71px 0 65px 0;
+  background: url('../img/gridbg.jpg') center center/cover no-repeat;
+}
+
+.cause_label {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 38px;
+  width: 112px;
+  height: 24px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cause_header {
+  margin: 0 auto 40px auto;
+  color: #222222;
+  font-size: 38px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cause .cause_left {
+  padding-right: 50px;
+}
+.cause .cause_right {
+  padding-left: 50px;
+}
+
+.cause .cause_content {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cause .cause_image {
+  min-width: 113px;
+  min-height: 113px;
+  border-radius: 100%;
+  background-color: #1eacc7;
+  margin-right: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cause .cause_content .cause_text {
+  color: #202020;
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 21px;
+  text-align: left;
+}
+
+.cause .cause_context {
+  color: #1eacc7;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
