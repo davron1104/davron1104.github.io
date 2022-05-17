@@ -1,0 +1,66 @@
+@font-face {
+	font-family: 'Arial';
+	src: url('../fonts/../fonts/ArialMT.eot');
+	src: local('../fonts/../fonts/Arial'), local('ArialMT'),
+		url('../fonts/../fonts/ArialMT.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/../fonts/ArialMT.woff') format('woff'),
+		url('../fonts/../fonts/ArialMT.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Georgia';
+	src: url('../fonts/Georgia-Italic.eot');
+	src: local('../fonts/Georgia Italic'), local('Georgia-Italic'),
+		url('../fonts/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Georgia-Italic.woff') format('woff'),
+		url('../fonts/Georgia-Italic.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url('../fonts/MyriadPro-Regular.eot');
+	src: local('../fonts/Myriad Pro Regular'), local('MyriadPro-Regular'),
+		url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MyriadPro-Regular.woff') format('woff'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.eot');
+    src: local('../fonts/Roboto Medium'), local('Roboto-Medium'),
+        url('../fonts/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Medium.woff') format('woff'),
+        url('../fonts/Roboto-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Light.eot');
+    src: local('../fonts/Roboto Condensed Light'), local('RobotoCondensed-Light'),
+        url('../fonts/RobotoCondensed-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoCondensed-Light.woff') format('woff'),
+        url('../fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Regular.eot');
+    src: local('../fonts/Roboto Condensed'), local('RobotoCondensed-Regular'),
+        url('../fonts/RobotoCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/RobotoCondensed-Regular.woff') format('woff'),
+        url('../fonts/RobotoCondensed-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
